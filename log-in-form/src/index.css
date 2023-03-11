@@ -1,66 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 *{
   margin: 0;
   padding: 0;
 }
 
+/* styling body */
 body{
-  background-color: rgb(222, 237, 250);
-  height: 100vh;
+  /* background-color: rgb(53, 53, 82); */
+  background: url(pexels-pixabay-206359.jpg) fixed no-repeat center;
+  background-size: cover;
 
   display: flex;
   justify-content: center;
   align-items: center;
 
-  font-family: 'Poppins', sans-serif;
+  height: auto;
 }
 
-.forms{
-  background-color: aliceblue;
+.form{
+  background-color: azure;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  /* width: 50%; */
 
-  border: 1px solid black;
-  border-radius: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.form-centre{
+  /* form to flex */
   display: flex;
+
+  /* arranging content to centre */
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
-  padding: 10px;
 }
 
-.title{
-  font-size: small;
-
-  border: none;
-  border-radius: 5px;
-
-  background-color: rgb(89, 103, 207);
-  color: white;
-
-  padding: 5px;
-}
-
-.forms div{
-  margin: 5px;
-}
-
-.forms input{
-  padding: 5px;
-  border: 1px solid black;
-  border-radius: 5px;
-}
-
-.btn{
-  margin-top: 2px;
-  padding: 5px;
-}
-
-.footerMsg{
-  font-size: small;
-}
-
-.formSwitchbtn{
-  color: rgb(132 5 152);
-  cursor: pointer;
+.roboto-font{
+  font-family: 'Roboto', sans-serif;
 }
